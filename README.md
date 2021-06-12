@@ -6,11 +6,9 @@ Linguagem interpretada. Podendo ser ligados  como C++, Java, SQL.
 
 Tipos de dados
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b2b4d4dd-e4ef-4cad-b618-72c2b70b6e23/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b2b4d4dd-e4ef-4cad-b618-72c2b70b6e23/Untitled.png)
 
 Operações
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1d5e732e-a7a9-48f5-acaa-a08bea3ff949/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1d5e732e-a7a9-48f5-acaa-a08bea3ff949/Untitled.png)
 
 Em multiplicação temos a `.*` que é uma multiplicação ponto a ponto, multiplicando elementos correspondentes. Por exemplo, em uma matriz 2x2. Ao ser multiplicada ponto a ponto com uma outra matriz 2x2. A multiplicação será correspondente a cada posições correspondentes.
 
@@ -35,7 +33,6 @@ Capturar uma sub-Matriz
 
 Colon Operator
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84d5befe-766f-48a5-89ea-4697a29296d3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84d5befe-766f-48a5-89ea-4697a29296d3/Untitled.png)
 
 Operações em matrizes
 

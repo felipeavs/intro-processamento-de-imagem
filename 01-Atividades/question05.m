@@ -1,0 +1,1 @@
+% 5. Criar um vetor com componente ímpares entre 31 e 75vetor = 31:2:75

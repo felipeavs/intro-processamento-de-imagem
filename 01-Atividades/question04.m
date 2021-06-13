@@ -13,4 +13,4 @@ A = [A;linha]
 %(b) Defina uma matriz B que contenha as três primeiras linhas da matriz A e as
 % colunas de 2 a 4
 
-B = A(:,2:4)
+B = A(1:3,2:4)

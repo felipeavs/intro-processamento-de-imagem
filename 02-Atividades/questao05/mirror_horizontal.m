@@ -1,0 +1,1 @@
+function nimg = mirror_horizontal(img)  img = double(img);  [lin, col, n] = size(img);  nimg = zeros(lin, col, n);  nimg(1:lin,:,:) = img(lin:-1:1,:,:);    nimg = uint8(nimg);

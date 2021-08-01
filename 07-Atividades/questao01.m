@@ -1,0 +1,1 @@
+img = imread('luminaria.jpg');img = rgb2gray(img);mascaras = {"Sobel"; "Prewitt"; "Roberts"; "Canny"; "log"};for i = 1 : size(mascaras)(1)  nimg = edge(img,mascaras{i});  imwrite(nimg, strcat(mascaras{i}, '.png'));  figure; imshow(nimg);endfornimg = edge(img,'zerocross', 15 ,[0 -1 0; 1 4 -1; 0 -1 0]);imwrite(nimg, 'zerocross.png');figure; imshow(nimg);

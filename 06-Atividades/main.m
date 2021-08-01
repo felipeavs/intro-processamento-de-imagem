@@ -49,7 +49,7 @@ pred = test_sc(model, test_data);
 % Questão 7) Calcule a taxa de acerto para cada tipo de digito. Além disso, gere uma matriz de
 % confusão. Veja o uso da função confusionmat()
 predicao(:,1) = pred.classlabel(1:end, :);
-c = confusionmat(test_label, predicao)
+c = confusionmat(test_label, predicao);
 
 
 %Questão 8
@@ -58,12 +58,12 @@ nimgs = BoundingBoxPatches(nimg);
 etiqueta2 = [0; 1; 3; 5; 2; 7];
 
 for i = 1 : size(nimgs)(1)
-  nvetor_h(i,:) = humoments(nimgs{i});   
+  nvetor_h(i,:) = humoments(nimgs{i}); 
 endfor
 
 pred2 = test_sc(model, nvetor_h)
 predicao2(:,1) = pred2.classlabel(1:end,:);
-c2 = confusionmat(etiqueta2, predicao2)
+c2 = confusionmat(etiqueta2, predicao2);
 
 
 
